@@ -1,0 +1,14 @@
+---
+
+### 2. `requirements.txt` (Dépendances)
+Ce fichier permet d'installer tout l'environnement en une seule commande.
+
+```text
+# Connecteur natif MySQL
+mysql-connector-python>=9.0.0
+
+# Gestion des variables d'environnement (.env)
+python-dotenv>=1.0.0
+
+# Framework de tests unitaires
+pytest>=8.0.0
