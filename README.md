@@ -1,38 +1,38 @@
 # Talabat App - MVP ??
 
-## ?? Présentation du Projet
-Talabat est une plateforme de mise en relation pour la restauration artisanale à domicile. Ce projet vise à "ubériser" le secteur du fait-maison en connectant des **Cuisiniers Artisans (Fournisseurs)** et des **Clients (Bénéficiaires)**.
+## ?? Prï¿½sentation du Projet
+Talabat est une plateforme de mise en relation pour la restauration artisanale ï¿½ domicile. Ce projet vise ï¿½ "ubï¿½riser" le secteur du fait-maison en connectant des **Cuisiniers Artisans (Fournisseurs)** et des **Clients (Bï¿½nï¿½ficiaires)**.
 
-Ce projet a été réalisé dans le cadre de la formation **JOBINTECH (DXC Rabat)**.
+Ce projet a ï¿½tï¿½ rï¿½alisï¿½ dans le cadre de la formation **JOBINTECH (DXC Rabat)**.
 
-### ?? Équipe de Développement
-*   **Yasmine ELANBRI** : Pilotage du périmètre Bénéficiaire (Panier, Commandes, Séquestre).
-*   **Noureddine LAGOUIT** : Pilotage du périmètre Fournisseur (KYC, Catalogue CRUD, Revenus).
+### ?? ï¿½quipe de Dï¿½veloppement
+*   **Yasmine ELANBRI** : Pilotage du pï¿½rimï¿½tre Bï¿½nï¿½ficiaire (Panier, Commandes, Sï¿½questre).
+*   **Noureddine LAGOUIT** : Pilotage du pï¿½rimï¿½tre Fournisseur (KYC, Catalogue CRUD, Revenus).
 
 ---
 
-## ??? Spécifications Techniques
-L'application respecte les standards de l'industrie enseignés par le **Pr. Abdelhay HAQIQ** :
+## ??? Spï¿½cifications Techniques
+L'application respecte les standards de l'industrie enseignï¿½s par le **Pr. Abdelhay HAQIQ** :
 
 *   **Architecture Multi-couches (N-Tier)** : 
-    1.  **Core (Domaine)** : Logique métier pure (Entités, Enums).
+    1.  **Core (Domaine)** : Logique mï¿½tier pure (Entitï¿½s, Enums).
     2.  **Infrastructure** : Persistance (MySQL Repositories) et Design Patterns.
-    3.  **Application (Services)** : Orchestration des flux de données.
-    4.  **Présentation (CLI)** : Interface utilisateur en ligne de commande.
+    3.  **Application (Services)** : Orchestration des flux de donnï¿½es.
+    4.  **Prï¿½sentation (CLI)** : Interface utilisateur en ligne de commande.
 *   **Design Patterns Obligatoires** :
-    *   **Singleton** : Instance unique de connexion à MySQL (`GestionnaireBDD`).
-    *   **Factory** : Découplage de la création des objets (`FabriqueUtilisateur`, `FabriqueNotification`).
-*   **Principes SOLID** : Forte cohésion, faible couplage, et encapsulation stricte.
+    *   **Singleton** : Instance unique de connexion ï¿½ MySQL (`GestionnaireBDD`).
+    *   **Factory** : Dï¿½couplage de la crï¿½ation des objets (`FabriqueUtilisateur`, `FabriqueNotification`).
+*   **Principes SOLID** : Forte cohï¿½sion, faible couplage, et encapsulation stricte.
 
 ---
 
 ## ?? Installation et Configuration
 
-### Pré-requis
+### Prï¿½-requis
 *   Python 3.10+
 *   Serveur MySQL (WAMP, XAMPP ou MySQL Installer)
 
-### Étapes
+### ï¿½tapes
 1. **Cloner le projet** :
    ```bash
    git clone https://github.com/lagouit/Talabat_App_MVP.git
