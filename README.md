@@ -1,17 +1,17 @@
-# Talabat App - MVP ??
+# Talabat App - MVP 🍲
 
-## ?? Présentation du Projet
+## 📝 Présentation du Projet
 Talabat est une plateforme de mise en relation pour la restauration artisanale à domicile. Ce projet vise à "ubériser" le secteur du fait-maison en connectant des **Cuisiniers Artisans (Fournisseurs)** et des **Clients (Bénéficiaires)**.
 
 Ce projet a été réalisé dans le cadre de la formation **JOBINTECH (DXC Rabat)**.
 
-### ?? Équipe de Développement
+### 👥 Équipe de Développement
 *   **Yasmine ELANBRI** : Pilotage du périmètre Bénéficiaire (Panier, Commandes, Séquestre).
 *   **Noureddine LAGOUIT** : Pilotage du périmètre Fournisseur (KYC, Catalogue CRUD, Revenus).
 
 ---
 
-## ??? Spécifications Techniques
+## 🛠️ Spécifications Techniques
 L'application respecte les standards de l'industrie enseignés par le **Pr. Abdelhay HAQIQ** :
 
 *   **Architecture Multi-couches (N-Tier)** : 
@@ -26,7 +26,7 @@ L'application respecte les standards de l'industrie enseignés par le **Pr. Abde
 
 ---
 
-## ?? Installation et Configuration
+## 🚀 Installation et Configuration
 
 ### Pré-requis
 *   Python 3.10+
